@@ -1,0 +1,15 @@
+{
+  "name": "rpg-realm",
+  "private": true,
+  "packageManager": "pnpm@9.12.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "pnpm -r --parallel run dev",
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run test",
+    "lint": "pnpm -r --parallel run lint",
+    "typecheck": "pnpm -r --parallel run typecheck"
+  }
+}
