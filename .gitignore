@@ -6,3 +6,4 @@ dist
 .claude
 package-lock.json
 !/README.md
+*.tsbuildinfo
