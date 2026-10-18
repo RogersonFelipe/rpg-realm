@@ -1,7 +1,7 @@
 {
   "name": "rpg-realm",
   "private": true,
-  "packageManager": "pnpm@9.12.0",
+  "packageManager": "pnpm@12.14.0",
   "engines": {
     "node": ">=20"
   },
