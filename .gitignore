@@ -5,4 +5,4 @@ dist
 *.md
 .claude
 package-lock.json
-!README.md
+!/README.md
