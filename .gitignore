@@ -7,3 +7,4 @@ dist
 package-lock.json
 !/README.md
 *.tsbuildinfo
+/src/generated/prisma

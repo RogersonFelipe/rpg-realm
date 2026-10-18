@@ -3,6 +3,9 @@ packages:
   - "packages/*"
 allowBuilds:
   "@parcel/watcher": true
+  '@prisma/engines': true
+  better-sqlite3: true
+  prisma: true
   unrs-resolver: true
 minimumReleaseAgeExclude:
   - "@tanstack/query-core@5.104.4"
