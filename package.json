@@ -10,6 +10,10 @@
     "build": "pnpm -r run build",
     "test": "pnpm -r run test",
     "lint": "pnpm -r --parallel run lint",
-    "typecheck": "pnpm -r --parallel run typecheck"
+    "typecheck": "pnpm -r --parallel run typecheck",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
   }
 }

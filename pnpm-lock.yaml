@@ -6,7 +6,11 @@ settings:
 
 importers:
 
-  .: {}
+  .:
+    devDependencies:
+      prettier:
+        specifier: ^3.4.2
+        version: 3.9.9
 
   apps/api:
     dependencies:
@@ -56,9 +60,6 @@ importers:
       oxlint:
         specifier: ^1.58.0
         version: 1.87.0
-      prettier:
-        specifier: ^3.4.2
-        version: 3.9.9
       source-map-support:
         specifier: ^0.5.21
         version: 0.5.21

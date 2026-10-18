@@ -1,11 +1,11 @@
-import { Injectable } from '@nestjs/common';
-import { HealthResponse } from '@rpg-realm/shared';
+import { Injectable } from "@nestjs/common";
+import { HealthResponse } from "@rpg-realm/shared";
 
 @Injectable()
 export class AppService {
   getHealth(): HealthResponse {
     return {
-      status: 'ok',
+      status: "ok",
       timestamp: new Date().toISOString(),
     };
   }

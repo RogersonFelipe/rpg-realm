@@ -1,12 +1,12 @@
-import { Controller, Get } from '@nestjs/common';
-import { AppService } from './app.service';
-import type { HealthResponse } from '@rpg-realm/shared';
+import { Controller, Get } from "@nestjs/common";
+import { AppService } from "./app.service";
+import type { HealthResponse } from "@rpg-realm/shared";
 
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
-  @Get('health')
+  @Get("health")
   getHealth(): HealthResponse {
     return this.appService.getHealth();
   }
